@@ -1,0 +1,82 @@
+.page-menu{
+    position: relative;
+    background-color: #fafafa;
+    display: flex;
+}
+.page-menu .menus{
+    height: 100%;
+    background-color: #fff;
+    width:2rem;
+    overflow-y: scroll;
+    text-align: center;
+    line-height: .8rem;
+}
+.page-menu .menus li{
+    border-bottom: 1px solid #eee;
+    font-size: .3rem;
+}
+.page-menu .menus li.on{
+    background-color: #fafafa;
+    color: #ff4f02;
+    border-left: 2px solid #ff4f02;
+}
+.page-menu .info{
+    flex: 1;
+    box-sizing: border-box;
+    padding: .1rem;
+    height: 100%;
+    overflow-y: scroll;
+}
+.page-menu .info .adv-top{
+    position: relative;
+}
+.page-menu .info .adv-top img{
+    width: 100%;
+    display: block;
+}
+.page-menu .info .adv-top p{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    width: .6rem;
+    padding-top: .5rem;
+    box-sizing: border-box;
+}
+.page-menu .menu-list .tit{
+    width: 2.6rem;
+    height: .04rem;
+    margin:  .6rem auto .3rem;
+    background-color: #aaa;
+    text-align: center;
+}
+.page-menu .menu-list .items .tit span{
+    background-color: #fafafa;
+    padding: 0 .3rem;
+    font-size: .3rem;
+    position: relative;
+    top: -.2rem;
+}
+.page-menu .menu-list .items ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* flex-direction: row-reverse; */
+}
+.page-menu .menu-list .items li{
+    width: 1.6rem;
+    height: .7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: .7rem;
+    box-sizing: border-box;
+    padding: 0 .08rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+    margin: .1rem .05rem; 
+}

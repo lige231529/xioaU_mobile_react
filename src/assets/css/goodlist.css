@@ -1,0 +1,119 @@
+.good-box{
+	padding-top: 1.92rem;
+	background-color: #f4f5fa;
+}
+.good-box .fix-top{
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	top: .88rem;
+	background-color: #fff;
+	height: .8rem;
+	line-height: .8rem;
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	display: flex;
+	z-index: 1000;
+}
+.good-box .fix-top div{
+	width: 20%;
+	text-align: center;
+	color:#888;
+}
+.good-box .fix-top div.active{
+	color: #FF4F02;
+	border-bottom: 2px solid #FF4F02;
+}
+.good-box .fix-top div span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.good-box .fix-top div.active span i{
+	color: #888;
+}
+.good-box .fix-top div span i{
+	font-size: .20rem;
+	display: block;
+	line-height: .16rem;
+	margin: 2px 0;
+}
+.good-box .fix-top div.active span i.on{
+	color: #FF4F02;
+}
+.good-box .fix-top div:last-child i{
+	font-size: .5rem;
+	color:#888;
+}
+.good-box .goods-list{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 .24rem;
+}
+.good-box .goods-list li{
+	width: 50%;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-bottom: .24rem;
+}
+.good-box .goods-list li:nth-child(even){
+	padding-left: .12rem;
+}
+.good-box .goods-list li:nth-child(odd){
+	padding-right: .12rem;
+}
+.good-box .goods-list .item{
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.good-box .goods-list .item .pic{
+	display: block;
+}
+.good-box .goods-list .item img{
+	width: 100%;
+}
+.good-box .goods-list .item .pic,
+.good-box .goods-list .item .txt{
+	margin: .2rem;
+}
+.good-box .item .name{
+   line-height: .4rem;
+   height: .8rem;
+   overflow: hidden;
+   font-size: .3rem;
+   text-align: justify;
+}
+.good-box .item .pirce{
+	color: #FF4F02;
+	line-height: .6rem;
+	font-size: .36rem;
+}
+.good-box .item .nums{
+	display: none;
+}
+.good-box  .item i{
+	position: absolute;
+	right: .2rem;
+	color: #FF4F02;
+	bottom: .3rem;
+	font-size: .4rem;
+}
+.good-box .goods-list.active li{
+	width: 100%;
+	padding: 0;
+}
+.good-box .goods-list.active li .item{
+	display: flex;
+}
+.good-box .goods-list.active li .item .pic{
+	margin-right: 0;
+}
+.good-box .goods-list.active li .item img{
+	width: 2rem;
+	height: 2rem;
+}
+.good-box .goods-list.active li .item .nums{
+	display: block;
+	color:#999;
+}

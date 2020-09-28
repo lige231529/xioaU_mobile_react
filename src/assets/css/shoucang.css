@@ -1,0 +1,67 @@
+.fix-top{
+    height: .8rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    left: 0;
+    top: .88rem;
+    width: 100%;
+    line-height: .8rem;
+    font-size: .3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.fix-top a{
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+.fix-top a.on{
+    color: #ff4f02;
+    border-bottom: 2px solid #ff4f02;
+}
+.list-box{
+    padding-top: 1.68rem;
+}
+.list-box li{
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem  0;
+    margin: 0 .24rem;
+    border-bottom: 1px dashed #eee;
+}
+.list-box li .pic,
+.list-box li .pic img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: .2rem;
+}
+.list-box li .txt{
+    flex: auto;
+}
+.list-box li h3{
+    font-size: .3rem;
+}
+.list-box li p.price{
+    color: #ff4f02;
+}
+.list-box li p.num{
+    color: #999;
+}
+.list-box li h4 {
+    text-align: right;
+}
+.list-box li h4 span{
+    padding: .1rem .3rem;
+    border-radius: .3rem;
+    font-size: .24rem;
+}
+.list-box li h4 span:first-child{
+    background-color: #ff4f02;
+    color: #fff;
+}
+.list-box li h4 span:last-child{
+    margin-left: .2rem;
+    background-color: #ddd;
+    color: #888;
+}

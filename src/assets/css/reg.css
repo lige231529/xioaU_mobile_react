@@ -1,0 +1,90 @@
+.reg{
+	padding-top: .88rem;
+	box-sizing: border-box;
+}
+.reg .reg-box{
+	box-sizing: border-box;
+	padding: .5rem .22rem 0; 
+}
+.reg .reg-box .items{
+	border-bottom: 1px solid #e5e5e5;
+	line-height: .8rem;
+	height: .8rem;
+	display: flex;
+	margin-top: .2rem;
+	justify-content: space-between;
+}
+.reg .reg-box .items input{
+	flex: 1;
+	outline: none;
+	font-size: .28rem;
+	color:#999;
+	box-sizing: border-box;
+	padding: 0 .2rem;
+	border: none;
+}
+.reg .reg-box  .items input::-webkit-input-placeholder,
+.reg .reg-box  .items input::-moz-input-placeholder,
+.reg .reg-box  .items input::-ms-input-placeholder{
+	color: #999;
+}
+.reg .reg-box .items  label{
+	width: 1rem;
+	text-align: center;
+	position: relative;
+}
+.reg .reg-box .items  label::after{
+	content: "";
+	display: block;
+	width: 1px;
+	height: .5rem;
+	background-color: #efefef;
+	position: absolute;
+	top: .16rem;
+	right: 0;
+	transform: scaleX(0.5);
+}
+.reg .reg-box .items  label i{
+	font-size: .5rem;
+	color: #999;
+}
+.reg .reg-box .items  span i{
+	font-size: .3rem;
+	color: #999;
+	margin-right: .1rem;
+}
+.reg .reg-box .items a{
+	margin-right: .1rem;
+	border: 1px solid #fa597e;
+	color: #fa597e;
+	border-radius: .08rem;
+	line-height: .6rem;
+	height: .6rem;
+	display: inline-block;
+	font-size: .24rem;
+	padding: 0 .1rem;
+}
+.reg .reg-box .items a.active{
+	background-color: #fa597e;
+	color: #fff;
+}
+.reg .reg-box button{
+	display: block;
+	width: 6rem;
+	margin: 0 auto;
+	background-color: #FF4F02;
+	border: none;
+	line-height: .8rem;
+	color: #FFFDEF;
+	font-size: .28rem;
+	letter-spacing:.08rem;
+	margin-top: .6rem;
+	border-radius: .1rem;
+}
+.reg .reg-box p{
+	line-height: 1.4rem;
+	text-align: center;
+	font-size: .26rem;
+	color: #5790bb;
+
+}

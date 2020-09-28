@@ -1,0 +1,46 @@
+.shouhou-box{
+    padding-top: .88rem;
+}
+.shouhou-box li .row-item{
+    margin: 0 .24rem;
+    position: relative;
+    line-height: .8rem;
+    overflow: hidden;
+}
+.shouhou-box li .row-item label{
+    width: 2.4rem;
+    text-align: right;
+    margin-right: .2rem;
+    color: #333;
+    display: block;
+    float: left;
+}
+.shouhou-box li .row-item span{
+    color: #999;
+    float: left;
+    width: 4.4rem;
+}
+.shouhou-box li .good span{
+    line-height: .5rem;
+    margin: .1rem 0;
+}
+.shouhou-box li .row-item::after{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.shouhou-box li .row-item .see{
+    line-height: .7rem;
+    background-color: #ff4f02;
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 2.4rem;
+    border-radius: .14rem;
+    margin: .2rem auto .5rem;
+}

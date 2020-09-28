@@ -1,0 +1,169 @@
+.address-list{
+    padding-top: .88rem;
+}
+.address-list li{
+    margin: .24rem .24rem 0;
+    background-color: #fff;
+    border-radius: .1rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+    padding: .2rem;
+}
+.address-list li .t{
+    font-size: .3rem;
+    color: #3c3c3c;
+    display: flex;
+    line-height: .6rem;
+    justify-content: space-between;
+}
+.address-list li .p{
+    color: #aaa;
+    font-size: .28rem;
+    line-height: .4rem;
+    margin: .1rem 0;
+}
+.address-list li .b{
+    display: flex;
+    justify-content: space-between;
+    line-height: .6rem;
+    position: relative;
+    padding-top: .1rem;
+    color: #999;
+    font-size: .26rem;
+}
+.address-list li .b::before{
+    content: "";
+    display: block;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    transform: scaleY(.5);
+    background-color: #dedede;
+}
+.address-list li .b .default i{
+    margin-right: .1rem;
+}
+.address-list li .b .default.on{
+   color: #ff4f02;
+}
+.address-list li .b .edit{
+    margin-right: .3rem;
+}
+.address-list li .b .edit i,
+.address-list li .b .del i{
+    margin-right: .1rem;
+}
+.address-list .add{
+    width: 6rem;
+    height: .8rem;
+    background-color: #ff4f02;
+    color: #fff;
+    text-align: center;
+    line-height: .8rem;
+    display: block;
+    margin: .4rem auto 0;
+    border-radius: .1rem;
+    border:none;
+    font-size: .3rem;
+}
+.address-list .add i{
+    width: .4rem;
+    height: 0.4rem;
+    font-size: .2rem;
+    border:1px solid #fff;
+    border-radius: 50%;
+    margin-right: .1rem;
+}
+
+
+
+.address-form{
+    padding-top: .88rem;
+}
+.address-form .input-row{
+    margin: 0 .24rem;
+    line-height: .8rem;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.address-form .input-row label{
+    font-size: .28rem;
+    color: #666;
+    width: 2.2rem;
+}
+.address-form .input-row input{
+   font-size: .28rem;
+    color: #aaa;
+    height:  .8rem;
+    line-height:  .8rem;
+    border: none;
+    outline: none;
+    flex: auto;
+}
+.address-form .input-row.address{
+    justify-content: space-between;
+}
+.address-form .input-row.address span{
+    flex:auto;
+    padding-right: 10px;
+    color: #aaa;
+   font-size: .28rem;
+}
+.address-form .input-row.no{
+    border-bottom: none;
+}
+.address-form .input-row.info textarea{
+    height: 1.6rem;
+    flex: auto;
+    outline: none;
+    padding: .2rem 0;
+    resize: none;
+   font-size: .28rem;
+    color: #aaa;
+    border:none;
+}
+.address-form .input-row.default{
+    margin: 0;
+    padding: 0 .24rem;
+   justify-content: space-between;
+   border-top: .2rem solid #f5f5f5;
+   border-bottom: .2rem solid #f5f5f5;
+
+}
+.address-form .switch{
+   width: 1rem;
+   height: .48rem;
+   margin-top: 10px;
+   border-radius:15px;
+   background-color: #ddd; 
+   position: relative;
+    transition: all .1s linear;
+
+}
+.address-form .switch span{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    left: 0.04rem;
+    top: 0.04rem;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .1s linear;
+}
+.address-form .switch.on{
+    background-color: #4eca17;
+}
+.address-form .switch.on span{
+    left:0.56rem;
+}
+.address-form .delete{
+    margin: 0;
+    padding: 0 .24rem;
+   justify-content: space-between;
+   border-bottom: .2rem solid #f5f5f5;
+}
+.address-form .delete label{
+    color: #e80d0d;
+}
+ 
